@@ -6,7 +6,12 @@ int ALM = 12;
  
 void setup() {
   // put your setup code here, to run once:
-
+  Serial.begin(9600);  
+  pinMode(ALM, OUTPUT);  
+  pinMode(LM1, OUTPUT);  
+  pinMode(LM2, OUTPUT);
+  pinMode(RM1, OUTPUT);
+  pinMode(RM2, OUTPUT);
 }
 
 void loop() {
